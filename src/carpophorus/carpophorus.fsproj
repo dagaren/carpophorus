@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Parsing.fs" />
+    <Compile Include="IO.fs" />
+    <Compile Include="Model.fs" />
+    <Compile Include="Fen.fs" />
+    <Compile Include="UciProtocol.fs" />
+    <Compile Include="ParsingUci.fs" />
+    <Compile Include="Engine.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Elmish" Version="4.0.0-beta-3" />
+    <PackageReference Include="FParsec" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>

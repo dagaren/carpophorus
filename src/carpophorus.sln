@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "carpophorus", "carpophorus\carpophorus.fsproj", "{C6A34A47-8979-4ABB-A122-BCB7A4E94804}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "carpophorus.tests", "carpophorus.tests\carpophorus.tests.fsproj", "{2AA250FD-9680-4FDA-A47B-12D094CA5FD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6A34A47-8979-4ABB-A122-BCB7A4E94804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A34A47-8979-4ABB-A122-BCB7A4E94804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A34A47-8979-4ABB-A122-BCB7A4E94804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A34A47-8979-4ABB-A122-BCB7A4E94804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA250FD-9680-4FDA-A47B-12D094CA5FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA250FD-9680-4FDA-A47B-12D094CA5FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA250FD-9680-4FDA-A47B-12D094CA5FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA250FD-9680-4FDA-A47B-12D094CA5FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
